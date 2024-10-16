@@ -72,6 +72,7 @@ def save_pickle(path: str, obj: Any):
     with open(path, "wb") as f:
         pickle.dump(obj, f)
 ```
+# added code
 
 * 1.3 Update `predict` function to be able to load a pickle model from a path instead of having the model object as a parameter.
 
